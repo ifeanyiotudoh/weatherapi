@@ -22,7 +22,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'Otuscomm'
+        containerRegistry: 'OtuscommDocker Hub'
         repository: 'otuscomm/weatherapi-image'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
